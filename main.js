@@ -32,6 +32,7 @@ const contact = [
 const op = prompt("найти информацию по именни")
 
 const itog = contact.hasOwnProperty(op)
-if (condition) {
+if (op) {
+   console.log(contact.name);
     
 }
